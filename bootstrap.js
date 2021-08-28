@@ -52,9 +52,91 @@
 /******/ 	function promiseResolve() { return Promise.resolve(); }
 /******/
 /******/ 	var wasmImportObjects = {
-/******/ 		"../pkg/wasm_bench_bg.wasm": function() {
+/******/ 		"../pkg/lightning_maze_bg.wasm": function() {
 /******/ 			return {
-/******/
+/******/ 				"./lightning_maze_bg.js": {
+/******/ 					"__wbindgen_object_drop_ref": function(p0i32) {
+/******/ 						return installedModules["../pkg/lightning_maze_bg.js"].exports["__wbindgen_object_drop_ref"](p0i32);
+/******/ 					},
+/******/ 					"__wbg_getRandomValues_98117e9a7e993920": function(p0i32,p1i32) {
+/******/ 						return installedModules["../pkg/lightning_maze_bg.js"].exports["__wbg_getRandomValues_98117e9a7e993920"](p0i32,p1i32);
+/******/ 					},
+/******/ 					"__wbg_randomFillSync_64cc7d048f228ca8": function(p0i32,p1i32,p2i32) {
+/******/ 						return installedModules["../pkg/lightning_maze_bg.js"].exports["__wbg_randomFillSync_64cc7d048f228ca8"](p0i32,p1i32,p2i32);
+/******/ 					},
+/******/ 					"__wbg_process_2f24d6544ea7b200": function(p0i32) {
+/******/ 						return installedModules["../pkg/lightning_maze_bg.js"].exports["__wbg_process_2f24d6544ea7b200"](p0i32);
+/******/ 					},
+/******/ 					"__wbindgen_is_object": function(p0i32) {
+/******/ 						return installedModules["../pkg/lightning_maze_bg.js"].exports["__wbindgen_is_object"](p0i32);
+/******/ 					},
+/******/ 					"__wbg_versions_6164651e75405d4a": function(p0i32) {
+/******/ 						return installedModules["../pkg/lightning_maze_bg.js"].exports["__wbg_versions_6164651e75405d4a"](p0i32);
+/******/ 					},
+/******/ 					"__wbg_node_4b517d861cbcb3bc": function(p0i32) {
+/******/ 						return installedModules["../pkg/lightning_maze_bg.js"].exports["__wbg_node_4b517d861cbcb3bc"](p0i32);
+/******/ 					},
+/******/ 					"__wbg_modulerequire_3440a4bcf44437db": function(p0i32,p1i32) {
+/******/ 						return installedModules["../pkg/lightning_maze_bg.js"].exports["__wbg_modulerequire_3440a4bcf44437db"](p0i32,p1i32);
+/******/ 					},
+/******/ 					"__wbg_crypto_98fc271021c7d2ad": function(p0i32) {
+/******/ 						return installedModules["../pkg/lightning_maze_bg.js"].exports["__wbg_crypto_98fc271021c7d2ad"](p0i32);
+/******/ 					},
+/******/ 					"__wbg_msCrypto_a2cdb043d2bfe57f": function(p0i32) {
+/******/ 						return installedModules["../pkg/lightning_maze_bg.js"].exports["__wbg_msCrypto_a2cdb043d2bfe57f"](p0i32);
+/******/ 					},
+/******/ 					"__wbg_newnoargs_1a11e7e8c906996c": function(p0i32,p1i32) {
+/******/ 						return installedModules["../pkg/lightning_maze_bg.js"].exports["__wbg_newnoargs_1a11e7e8c906996c"](p0i32,p1i32);
+/******/ 					},
+/******/ 					"__wbg_call_e91f71ddf1f45cff": function(p0i32,p1i32) {
+/******/ 						return installedModules["../pkg/lightning_maze_bg.js"].exports["__wbg_call_e91f71ddf1f45cff"](p0i32,p1i32);
+/******/ 					},
+/******/ 					"__wbg_self_b4546ea7b590539e": function() {
+/******/ 						return installedModules["../pkg/lightning_maze_bg.js"].exports["__wbg_self_b4546ea7b590539e"]();
+/******/ 					},
+/******/ 					"__wbg_window_c279fea81f426a68": function() {
+/******/ 						return installedModules["../pkg/lightning_maze_bg.js"].exports["__wbg_window_c279fea81f426a68"]();
+/******/ 					},
+/******/ 					"__wbg_globalThis_038a6ea0ff17789f": function() {
+/******/ 						return installedModules["../pkg/lightning_maze_bg.js"].exports["__wbg_globalThis_038a6ea0ff17789f"]();
+/******/ 					},
+/******/ 					"__wbg_global_4f93ce884bcee597": function() {
+/******/ 						return installedModules["../pkg/lightning_maze_bg.js"].exports["__wbg_global_4f93ce884bcee597"]();
+/******/ 					},
+/******/ 					"__wbindgen_is_undefined": function(p0i32) {
+/******/ 						return installedModules["../pkg/lightning_maze_bg.js"].exports["__wbindgen_is_undefined"](p0i32);
+/******/ 					},
+/******/ 					"__wbg_buffer_79a3294266d4e783": function(p0i32) {
+/******/ 						return installedModules["../pkg/lightning_maze_bg.js"].exports["__wbg_buffer_79a3294266d4e783"](p0i32);
+/******/ 					},
+/******/ 					"__wbg_new_945397fb09fec0b8": function(p0i32) {
+/******/ 						return installedModules["../pkg/lightning_maze_bg.js"].exports["__wbg_new_945397fb09fec0b8"](p0i32);
+/******/ 					},
+/******/ 					"__wbg_set_223873223acf6d07": function(p0i32,p1i32,p2i32) {
+/******/ 						return installedModules["../pkg/lightning_maze_bg.js"].exports["__wbg_set_223873223acf6d07"](p0i32,p1i32,p2i32);
+/******/ 					},
+/******/ 					"__wbg_length_68e13e7bbd918464": function(p0i32) {
+/******/ 						return installedModules["../pkg/lightning_maze_bg.js"].exports["__wbg_length_68e13e7bbd918464"](p0i32);
+/******/ 					},
+/******/ 					"__wbg_newwithlength_b7722b5594f1dc21": function(p0i32) {
+/******/ 						return installedModules["../pkg/lightning_maze_bg.js"].exports["__wbg_newwithlength_b7722b5594f1dc21"](p0i32);
+/******/ 					},
+/******/ 					"__wbg_subarray_466613921b2fc6db": function(p0i32,p1i32,p2i32) {
+/******/ 						return installedModules["../pkg/lightning_maze_bg.js"].exports["__wbg_subarray_466613921b2fc6db"](p0i32,p1i32,p2i32);
+/******/ 					},
+/******/ 					"__wbindgen_object_clone_ref": function(p0i32) {
+/******/ 						return installedModules["../pkg/lightning_maze_bg.js"].exports["__wbindgen_object_clone_ref"](p0i32);
+/******/ 					},
+/******/ 					"__wbindgen_is_string": function(p0i32) {
+/******/ 						return installedModules["../pkg/lightning_maze_bg.js"].exports["__wbindgen_is_string"](p0i32);
+/******/ 					},
+/******/ 					"__wbindgen_throw": function(p0i32,p1i32) {
+/******/ 						return installedModules["../pkg/lightning_maze_bg.js"].exports["__wbindgen_throw"](p0i32,p1i32);
+/******/ 					},
+/******/ 					"__wbindgen_memory": function() {
+/******/ 						return installedModules["../pkg/lightning_maze_bg.js"].exports["__wbindgen_memory"]();
+/******/ 					}
+/******/ 				}
 /******/ 			};
 /******/ 		},
 /******/ 	};
@@ -145,7 +227,7 @@
 /******/
 /******/ 		// Fetch + compile chunk loading for webassembly
 /******/
-/******/ 		var wasmModules = {"0":["../pkg/wasm_bench_bg.wasm"]}[chunkId] || [];
+/******/ 		var wasmModules = {"0":["../pkg/lightning_maze_bg.wasm"]}[chunkId] || [];
 /******/
 /******/ 		wasmModules.forEach(function(wasmModuleId) {
 /******/ 			var installedWasmModuleData = installedWasmModules[wasmModuleId];
@@ -155,7 +237,7 @@
 /******/ 				promises.push(installedWasmModuleData);
 /******/ 			else {
 /******/ 				var importObject = wasmImportObjects[wasmModuleId]();
-/******/ 				var req = fetch(__webpack_require__.p + "" + {"../pkg/wasm_bench_bg.wasm":"ac544fe68244461f0334"}[wasmModuleId] + ".module.wasm");
+/******/ 				var req = fetch(__webpack_require__.p + "" + {"../pkg/lightning_maze_bg.wasm":"7e6c9c0240826a6b13c7"}[wasmModuleId] + ".module.wasm");
 /******/ 				var promise;
 /******/ 				if(importObject instanceof Promise && typeof WebAssembly.compileStreaming === 'function') {
 /******/ 					promise = Promise.all([WebAssembly.compileStreaming(req), importObject]).then(function(items) {
